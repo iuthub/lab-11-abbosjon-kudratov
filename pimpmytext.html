@@ -4,6 +4,7 @@
 		<title>Pimp My Text!</title>
 		<link href="pimpmytext.css" rel="stylesheet" type="text/css" />
 		<!-- link to your script file here -->
+		<script src="pimpmytext.js"></script>
 
 	</head>
 
@@ -14,6 +15,24 @@
 		</div>
 
 		<!-- Your UI controls go here -->
+		<div>
+			<form action="#">
+				<fieldset>
+				<legend> Text</legend>
+				<textarea id="text" name="text" rows="4" cols="30">Something. something Lorem ipsum dolor sit amet. consectetur , fuga et sint. quam!</textarea>
+				
+				</fieldset>
+
+				<fieldset>
+				<legend> PIMPIFICATION</legend>
+				<button type="button" onclick="bigger();">Bigger Pimping!</button>
+				<br />
+				<input type="checkbox" id="bling" name="bling" value="bling"> Bling
+				<br />
+				<button type="button" onclick="snoopify();">Snoopify!</button>
+				</fieldset>
+			</form>
+		</div>
 
 	</body>
 </html>
